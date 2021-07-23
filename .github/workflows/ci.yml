@@ -39,6 +39,6 @@ jobs:
     #     username: ${{ secrets.DOCKER_USERNAME }}
     #     password: ${{ secrets.DOCKERHUB_TOKEN }}
   
-  publish:
+  # publish:
 
-      needs: build
+  #     needs: build
